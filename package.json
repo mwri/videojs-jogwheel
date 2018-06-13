@@ -1,0 +1,59 @@
+{
+  "name": "videojs-jogwheel",
+  "description": "video.js plugin for rapidly jogging the video back and forth with the mouse wheel",
+  "version": "1.0.0",
+  "author": {
+    "name": "Michael Wright",
+    "email": "mjw@methodanalysis.com"
+  },
+  "os": [
+    "linux"
+  ],
+  "main": "dist/videojs-jogwheel-es5.js",
+  "module": "lib/videojs-jogwheel.js",
+  "license": "MIT",
+  "url": "https://github.com/mwri/videojs-jogwheel",
+  "scripts": {
+    "prepublishOnly": "./node_modules/grunt-cli/bin/grunt prepublish",
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwri/videojs-jogwheel.git"
+  },
+  "keywords": [
+    "video.js",
+    "plugin",
+    "jog",
+    "mouse",
+    "wheel"
+  ],
+  "bugs": {
+    "url": "https://github.com/mwri/videojs-jogwheel/issues"
+  },
+  "homepage": "https://github.com/mwri/videojs-jogwheel#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^4.19.1",
+    "grunt": "^1.0.3",
+    "grunt-babel": "^7.0.0",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-eslint": "^20.2.0",
+    "grunt-git": "^1.0.9",
+    "load-grunt-tasks": "^3.5.2"
+  },
+  "dependencies": {
+    "safe-json-parse": "^4.0.0",
+    "video-jogwheel": "^1.0.1"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ],
+    "sourceMaps": "both"
+  }
+}
